@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import *
 from datetime import time
 
-TOKEN = os.getenv("8524413023:AAFrm6toL6y6vogPAETYtUfqem5Q3kiJr0g")
+TOKEN = os.getenv("8524413023:AAHQ4fIugJHYf3Q58OwDAE5SEInX0U_P78E")
 
 # ---------------- DB ----------------
 conn = sqlite3.connect("users.db", check_same_thread=False)
